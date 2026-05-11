@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+type: dataset
+title: "Niger Delta Contamination Risk Dataset"
+abstract: >
+  A spatially explicit contamination risk dataset for the Niger Delta, Nigeria,
+  produced by the VRF computational environmental intelligence pipeline. Fuses
+  peer-reviewed heavy metal measurements, UNEP Ogoniland assessment data,
+  NOSDRA oil spill incident records, and Sentinel-2 NDVI indices into a
+  Composite Risk Score (CRS) at 1km² resolution across Rivers, Bayelsa,
+  Delta, Edo, Akwa Ibom, and Cross River States.
+authors:
+  - name: "Dickson Ojochogwu Dickson"
+    website: "https://ojochogwu.dev/research"
+version: "1.0.0"
+date-released: "2026-05-11"
+license: CC-BY-4.0
+repository-code: "https://github.com/verdantafrica/niger-delta"
+url: "https://verdantafrica.org"
+keywords:
+  - Niger Delta
+  - heavy metals
+  - oil spill
+  - contamination risk
+  - environmental intelligence
+  - Nigeria
+  - NDVI
+  - spatial modelling
+  - public health
+references:
+  - type: report
+    title: "Environmental Assessment of Ogoniland"
+    authors:
+      - name: "United Nations Environment Programme"
+    year: 2011
+    url: "https://www.unep.org/resources/report/environmental-assessment-ogoniland"
+  - type: data
+    title: "NOSDRA Oil Spill Monitor"
+    authors:
+      - name: "National Oil Spill Detection and Response Agency"
+    url: "https://oilspillmonitor.ng"
