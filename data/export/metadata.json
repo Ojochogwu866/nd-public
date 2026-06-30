@@ -1,33 +1,32 @@
 {
   "title": "VRF Niger Delta Contamination Risk Model",
   "version": "1.0.0-poc",
-  "generated": "2026-05-11T11:38:41.223349",
+  "generated": "2026-07-01T00:36:58.242392",
   "crs": "EPSG:4326",
   "grid_res_deg": 0.01,
   "crs_weights": {
-    "hi": 0.1264,
-    "tph": 0.8392,
-    "metal": 0.0344
+    "hi": 0.0,
+    "tph": 0.9575,
+    "metal": 0.0425
   },
   "model_metrics": {
     "hi": {
-      "roc_auc_cv": 0.7833,
-      "roc_auc_std": 0.3527
+      "note": "HI computed directly from hazard quotients; not modelled; excluded from grid CRS"
     },
     "tph": {
       "roc_auc_cv": 0.7982,
       "roc_auc_std": 0.189
     },
     "metal": {
-      "rmse_cv": 0.0166,
-      "rmse_std": 0.0302
+      "rmse_cv": 0.0238,
+      "rmse_std": 0.0306
     }
   },
   "validation": {
-    "sloocv_mae": 0.028400769655008512,
-    "sloocv_rmse": 0.10589304919361066,
-    "coverage_probability": 0.783,
-    "morans_i": -0.10346207848454121
+    "sloocv_mae": 0.03198652278933364,
+    "sloocv_rmse": 0.12089395420245642,
+    "coverage_probability": 0.8868,
+    "morans_i": -0.1034026519318054
   },
   "risk_tiers": {
     "critical": {
@@ -53,9 +52,9 @@
     "Peer-reviewed literature (P01-P09, 2009-2026)"
   ],
   "grid_tier_counts": {
-    "low": 206257,
-    "medium": 3529,
-    "high": 190,
-    "critical": 24
+    "low": 205890,
+    "medium": 3496,
+    "high": 551,
+    "critical": 63
   }
 }
